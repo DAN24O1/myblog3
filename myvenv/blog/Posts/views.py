@@ -20,7 +20,7 @@ def index(request):
     'form' : form
 
     }
-    return render(request, 'posts.html', context)
+    return render(request, 'blog.html', context)
 
 
 
